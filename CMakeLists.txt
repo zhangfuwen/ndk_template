@@ -14,6 +14,13 @@ add_executable(${PROJECT_NAME}
     src/main.cpp
 )
 
+add_executable(file_flush_test
+    src/file_flush_test.c
+)
+add_executable(file_dontneed
+    src/file_dontneed.c
+)
+
 # Link against required NDK libraries
 target_link_libraries(${PROJECT_NAME}
     PRIVATE
