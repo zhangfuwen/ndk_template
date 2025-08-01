@@ -1,1 +1,4 @@
 build
+cmake-build-Release
+compile_commands.json
+.cache

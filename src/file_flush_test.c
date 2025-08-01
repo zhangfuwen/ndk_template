@@ -39,6 +39,11 @@ int main(int argc, char *argv[]) {
     }
 
     printf("Read %ld bytes from the file.\n", (long)total_read);
+    while(1) {
+        sleep(1);
+        printf("Sleeping...\n");
+
+    }
 
     // 尝试 fflush（注意：对只读 fd 没有效果）
     FILE *fp = fdopen(fd, "r");  // 将 fd 转换为 FILE*，以便使用 fflush
