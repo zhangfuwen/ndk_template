@@ -27,6 +27,9 @@ add_executable(file_dontneed
 add_executable(file_mem_stat
     src/file_mem_stat.c
 )
+add_executable(file_read_speed
+    src/file_read_speed.c
+)
 
 
 # Link against required NDK libraries
